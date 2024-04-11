@@ -1,0 +1,22 @@
+.sizes {
+
+	justify-content: center;
+
+	// .sizes__item
+
+	&__item {
+		margin-right: 20px;
+		
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
+}
+.size {
+	
+	cursor: pointer;
+
+	&.active, &:hover{
+		text-decoration: underline;
+	}
+}

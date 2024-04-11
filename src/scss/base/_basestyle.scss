@@ -1,0 +1,30 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: $col-bg;
+	// max-width: 100%;
+}
+
+section{
+	margin: auto;
+}
+
+.wrapper{
+	padding: 10px 0;
+	
+	>*{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
